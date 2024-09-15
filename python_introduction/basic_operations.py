@@ -1,5 +1,5 @@
-number1 = int(input("enter the first number : "))
-number2 = int(input("entre the second number : "))
+number1 = 10
+number2 = 5
 
 Addition = number1 + number2
 Subtraction = number1 - number2
