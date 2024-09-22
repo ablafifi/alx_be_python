@@ -13,6 +13,5 @@ elif operation == "/":
     if Y == 0:
         print("Cannot divide by zero.")
     else:
-        print("The result is " + str(X / Y) + ".")
-    
+        print("The result is " + str(int(X / Y)) + ".")
     
