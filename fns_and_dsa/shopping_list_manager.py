@@ -1,5 +1,3 @@
-shopping_list = []
-
 def display_menu():
     """Display the menu options."""
     print("\nShopping List Manager")
@@ -49,6 +47,8 @@ def main():
             break
         else:
             print("Invalid choice. Please select a valid option.")
+
+shopping_list = []
 
 if __name__ == "__main__":
     main()
