@@ -1,6 +1,7 @@
+shopping_list = []
+
 def display_menu():
-    """Display the menu options."""
-    print("\nShopping List Manager")
+    print("Shopping List Manager")
     print("1. Add an item")
     print("2. Remove an item")
     print("3. View the shopping list")
@@ -45,10 +46,6 @@ def main():
         elif choice == '4':
             print("Exiting the Shopping List Manager. Goodbye!")
             break
-        else:
-            print("Invalid choice. Please select a valid option.")
-
-shopping_list = []
 
 if __name__ == "__main__":
     main()
